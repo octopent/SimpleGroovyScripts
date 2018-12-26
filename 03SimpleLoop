@@ -1,7 +1,9 @@
+println "Printing 0-10 in steps of 1"
 0.upto(10) {
   println "$it"
 }
 
-0.upto(20,2) {
+println "Printing 0-20 in steps of 2"
+0.step(21,2) {
   println "$it"
 }
