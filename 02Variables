@@ -1,0 +1,10 @@
+def x = 5
+def str = "hi there"
+def ml_str = """
+are
+you
+there?
+"""
+println x
+println str
+println ml_str
