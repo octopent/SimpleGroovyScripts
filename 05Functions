@@ -1,0 +1,17 @@
+//simple adder function
+def myfunc = {
+    a,b -> 
+        x = a+b
+        println x
+}
+
+myfunc(2,3)
+
+//factorial function
+
+def findFactorialGroovy = { 
+    n -> 
+    (n == 1) ? 1 : n * call(n - 1) 
+}
+
+println findFactorialGroovy(5)
