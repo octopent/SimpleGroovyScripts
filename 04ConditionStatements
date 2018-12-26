@@ -1,0 +1,21 @@
+//if else
+def x = 4 
+
+if(x%2 == 0)
+    println "chanceless"
+else
+    println "nonsence"
+    
+//switch
+def choice = 3
+
+switch(choice){
+    case 1: println "One"
+    break;
+    
+    case 2: println "Two"
+    break;
+    
+    case 3: println "Three"
+    break;
+}
