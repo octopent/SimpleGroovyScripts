@@ -1,0 +1,10 @@
+def y = ["Apple", "Mango", "Guava", "Banana", "Orange"]
+println y
+
+y.add("Strawberry")
+
+println(y.contains("Mango"))
+
+println(y.get(2))
+
+println(y.pop())
