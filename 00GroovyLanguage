@@ -1,0 +1,20 @@
+What is Groovy?
+ - OOP
+ - Uses Java Platform
+ - Typings: Dynamic as well as static
+ - Features similar to Python, Ruby
+ - Super version of Java: provides DSL Support, Closures
+
+ - test.groovy
+ - gets compiled in Java Bytecode so it runs 
+   on any platform with JRE installed
+
+ - Meta Programming: getters/setters are auto generated
+
+
+Features: 
+ - List, Map, Range, Regular Expressions
+ - Multithreading & Metaprogramming
+ - no class declaration
+ - can contain methods outside class defn
+ - operator overloading
