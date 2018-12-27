@@ -1,12 +1,12 @@
-def myClosure = {
+def myClosure1 = {
        println "My First Closure"	
 }
 
-myClosure()
+myClosure1()
 
-def myClosure = {
+def myClosure2 = {
        a,b,c->
        return (a+b+c)
 }
 
-println(myClosure(1,2,3))
+println(myClosure2(1,2,3))
